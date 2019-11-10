@@ -1,0 +1,113 @@
+.top-bar{
+  height: 100px;
+  width: 100%;
+  background-color: ;
+}
+
+.top-bar > h1, h4 {
+  margin: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: #666;
+}
+
+img {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  width: 100px;
+  border-radius: 100px;
+}
+
+.portfolio-container {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  margin-left: 0px;
+  background-color: ;
+}
+
+hr {
+  width: 100vw;
+  border: 0.3px solid rgba(0,0,0,0.07);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1500px) {
+  img {
+    right: 100px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1204px) {
+  
+
+.top-bar > h1, h4 {
+  margin: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: #666;
+}
+
+.portfolio-container{
+  position: relative;
+  left: 100px;
+  display: inline-block;
+}
+}
+
+@media screen and (max-width: 1204px) {
+  .portfolio-container {
+    background-color: ;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+  }
+}
+
+/* For Img to be over the title in the top bar */
+@media screen and (max-width: 800px) {
+  img{
+    display: none;
+  }
+
+  .top-bar {
+    position: relative;
+    margin-bottom: 0px;
+    left: 0px;
+
+  }
+
+  .portfolio-container{
+    position: relative;
+    margin-bottom: 0px;
+    left: 0px;
+  }
+  
+}
+
+
+
+
+@media screen and (max-width: 605px) {
+  .portfolio-container {
+    background-color: ;
+    margin: 0 auto;
+    width: 95%;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .top-bar > h1, h4{
+    font-size: 1em;
+    text-align: center;
+  }
+}

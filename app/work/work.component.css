@@ -1,0 +1,83 @@
+
+.work {
+  width: 700px;
+  background-color: rgba(0,0,0,0.05);
+  height: 700px;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 50px;
+  vertical-align: top;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  
+}
+
+.projects {
+  width: 300px;
+  height: 200px;
+  background-color: ;
+  box-shadow: 0 3px 10px 1px rgba(0,0,0,0.2);
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+  background-size: cover;
+}
+
+.projects-bar{
+  width: 700px;
+  height: 55px;
+  background-color: #2c7;
+  box-shadow: 0 3px 2px -1px rgba(0,0,0,0.4);
+  margin-top: -2px;
+  z-index: 99;
+  padding: 10px;
+}
+
+.captions {
+  position: absolute;
+  height: 90px;
+  width: 300px;
+  bottom: -95px;
+  padding: 10px;
+  background-color: #2c7;
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,0.2);
+}
+
+p , a  {
+  font-size: 0.9em;
+  font-family: 'Roboto', sans-serif;
+  color: #eef;
+  text-align: center;
+}
+
+@media screen and (max-width: 830px) {
+  .projects-bar {
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 310px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .work {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .projects-bar {
+
+  }
+}
